@@ -1,0 +1,9 @@
+
+Power BI Integration Steps:
+1. Open Power BI Desktop.
+2. Choose 'Get Data' > 'SQL Database'. For local testing, use 'SQLite', or 'CSV' as needed.
+3. Connect to vaccination.db (if using SQLite: install SQLite connector for Power BI).
+4. Import tables: coverage_data, incidence_data, reported_cases, vaccine_intro, vaccine_schedule.
+5. Sample DAX: For filtering KPIs, trend lines, and heatmaps
+6. Use slicers for year, country, antigen, disease
+7. For geographical heatmaps: use country_name + Coverage or incidence
